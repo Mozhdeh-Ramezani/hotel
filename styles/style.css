@@ -1,0 +1,971 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    width: 1440px;
+    /* height: 56px;
+    left: 165px; */
+    margin: auto;
+    padding: 20px 165px 20px 165px;
+    background-color: #EAEFF6;
+    align-items: baseline;
+}
+
+.header-ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-ul li {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0 20px;
+}
+
+.header-ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #353637;
+}
+
+.header-ul > li:last-child a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #597193;
+    border-radius: 4px;
+    padding: 10px 25px;
+    margin-left: 100px;
+    box-shadow: 0px 4px 12px 0px #15151526;
+
+}
+
+.logo {
+    display: flex;
+    align-items: baseline;
+}
+
+.logo h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 10px;
+    color: #597193;
+}
+
+/* Banner */
+
+.banner {
+    width: 1440px;;
+    height: 775px;
+    background-color: #EAEFF6;
+    margin: auto;
+    padding: 20px 165px 0 165px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.banner-text h1{
+    font-size: 45px;
+    color: #3D4550;
+}
+
+.banner-text p{
+    font-size: 18px;
+    color: #939393;
+    margin: 20px 0;
+    line-height: 28px;
+}
+
+.banner-button {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+
+}
+
+.banner-button a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.get-started {
+    width: 135px;
+    height: 40px;
+    padding: 10px 20px ;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #597193;
+    border-radius: 4px;
+    box-shadow: 0px 4px 12px 0px #15151526;
+}
+
+.watch-video {
+    font-family: "Open Sans";
+    font-size: 16px;
+    color: #353637;
+}
+
+.banner-play-button{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.banner-image {
+    margin-left: 100px;
+    position: absolute;
+    top: 216px;
+    right: 260px;
+    z-index: 1;
+}
+
+.circle-image {
+    position: absolute;
+    right: 120px;
+    bottom: 60px;
+}
+
+.overview-image {
+    position: absolute;
+    right: 601px;
+    bottom: 120px;
+}
+
+.payment-image {
+    position: absolute;
+    top: 197px;
+    right: 60px;
+}
+
+.first-small-circle {
+    position: absolute;
+    top: 135px;
+    right: 200px;
+}
+
+.second-small-circle {
+    position: absolute;
+    bottom: 100px;
+    right: 185px;
+}
+
+.third-small-circle {
+    position: absolute;
+    top: 200px;
+    right: 700px ;
+}
+
+.fourth-small-circle {
+    position: absolute;
+    bottom: 150px;
+    left: 523px;
+
+}
+
+/* Check Availability */
+
+.availability-sec{
+    width: 1112.17px;
+    height: 694px;
+    margin: 121px auto;
+}
+
+.availability-box {
+    display: flex;
+}
+
+.availability-image{
+    width: 637px;
+    height: 523px;
+    border-radius: 8px 0px 0px 8px;
+    background-color: #B1BED0;
+    position: relative;
+}
+
+.availability-image img{
+    width: 637px;
+    height: 434px;
+    border-radius: 8px 0 0 8px;
+    background-color:#B1BED0;
+    position: absolute;
+    bottom: 0;
+}
+
+.availability-text-box{
+    text-align: center;
+    margin: 0 auto 46px;
+    width: 452px;
+    height: 125px;
+}
+
+.availability-header{
+    font-family: "Open Sans";
+    font-size: 45px;
+    color: #353637;
+    line-height: 55px;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+.availability-description{
+    font-size: 18px;
+    font-family: "Average Sans";
+    font-weight: 400;
+    line-height: 28px;
+    color: #959595;
+}
+
+.availability-check-container{
+    width: 475.17px;
+    height: 523px;
+    background-color: #f6fcfa;
+    border-radius: 0 8px 8px 0 ;
+    position: relative;
+}
+
+.availability-check-container img{
+    width: 74.17px;
+    height: 73.92px;
+    position: absolute;
+    right: 0;
+}
+
+
+.availability-check-detail {
+    width: 339px;
+    height: 368px;
+    margin: 73.92px auto;
+    background-color: #f6fcfa;
+}
+
+
+.availability-check-detail label {
+    font-size: 14px;
+    color: #222426;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.availability-check-detail input{
+    font-size: 16px;
+    width: 339px;
+    height: 50px;
+    color: #636461;
+    border: 1px solid #ababab;
+    border-radius: 2px;
+    padding: 10px;
+    margin-bottom: 25px;
+    background-color: #f6fcfa;
+}
+
+.availability-check-detail select{
+    font-size: 16px;
+    width: 339px;
+    height: 50px;
+    color: #ABABAB;
+    border: solid 1px;
+    border-radius: 2px;
+    margin-bottom: 25px;
+    padding: 10px;
+    background-color: #f6fcfa;
+}
+
+.availability-check-detail button{
+    width: 339px;
+    height: 50px;
+    border: 1.5px solid #596b86;
+    border-radius:2px;
+    font-size: 14px;
+    color: #222426;
+    background-color: #f6fcfa;
+}
+
+
+/* Most Popular Room */
+
+.showroom-container {
+    max-width: 1110px;
+    /* height: 602px; */
+    margin: 118px auto;
+}
+
+.showroom-header-box {
+    text-align: center;
+    margin: 0 auto 46px;
+    width: 525px;
+    height: 129px;
+}
+
+.showroom-header-box-title {
+    font-family: "Open Sans";
+    font-size: 45px;
+    font-weight: 400;
+    color: #353637;
+    margin-bottom: 20px;
+}
+
+.showroom-header-box-des{
+    font-family: "Average Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #959595;
+}
+
+
+.showroom-card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 350px);
+    justify-content: space-around;
+    /* overflow: hidden; */
+}
+
+
+.showroom-card-image img {
+    width: 350px;
+    height: 264px;
+    object-fit: cover;
+    border-radius: 6px 6px 0 0;
+    /* display: block; */
+    vertical-align: top;
+}
+
+.showroom-card-detail {
+    width: 350px;
+    height: 163px;
+    border: 1px solid #596b86;
+    padding: 24px 61px 24px 22px;
+}
+
+.showroom-card-detail h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    color: #131313;
+}
+
+.info {
+    width: 240px;
+    height: 14px;
+    margin-bottom: 8px;
+    display: flex;
+    gap: 1.7rem;
+}
+
+.info i {
+    color: #727272;
+}
+
+.info span {
+    font-size: 12px;
+    font-weight: 300;
+    color: #727272;
+}
+
+.price{
+    display: flex;
+    gap: 0.5rem;
+    align-items: baseline;
+}
+
+.price h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #384d6c;
+}
+
+.price p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #585858;
+}
+
+
+/* Hotel Facilities */
+
+.facility-container{
+    width: 1110px;
+    height: 486px;
+    margin: 123px auto;
+}
+
+.facility-header-box {
+    text-align: center;
+}
+
+.facility-header-box-des {
+    font-family: "Average Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3rem;
+    color: #597193;
+}
+
+.facility-header-box-title {
+    font-family: "Open Sans";
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 19px;
+    color: #353637;
+}
+
+.facility-card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 350px);
+    justify-content: space-around;
+    gap: 30px;
+    overflow: hidden;
+    margin-top: 44px;
+}
+
+.facility-card {
+    width: 350px;
+    height: 158px;
+    border: 1px solid #596b86;
+    border-radius: 2px;
+    padding: 20px 30px 21px 31px;
+}
+
+.facility-card-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.facility-card-content-title {
+    font-size: 24px;
+    font-weight: 400;
+    color: #131313;
+}
+
+.facility-card-content-des {
+    font-family: "Average Sans";
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #9b9b9b;
+    margin-top: 16px;
+}
+
+
+/* Extra Information */
+
+.extra-information {
+    width: 946px;
+    height: 92px;
+    margin: 118px auto;
+    display: flex;
+    gap: 82px;
+    align-items: center;
+}
+
+.extra-information h1 {
+    font-size: 50px;
+    line-height: 55px;
+    color: #596b86;
+}
+
+.extra-information .space {
+    color: #c3c3c3;
+}
+
+.extra-information p {
+    font-family: "Average Sans";
+    font-size: 18px;
+    font-weight: 400;
+    color: #939393;
+}
+
+/* Discover Our History */
+
+.history-container {
+    width: 1110px;
+    height: 523px;
+    border-radius: 0 6px 6px 0;
+    margin: 126px auto;
+    display: flex;
+}
+
+.history-message-container {
+    width: 540px;
+    height: 523px;
+    background-color: #f6fcfa;
+}
+
+.history-video-container {
+    width: 569px;
+    height: 523px;
+    background-color: #a8adad;
+    border-radius: 0 6px 6px 0;
+}
+
+.history-video-container img {
+    width: 130px;
+    height: 130px;
+    margin: 197px 219px 196px 220px ;
+}
+
+.history-message-text h1{
+    font-family: "Open Sans";
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.history-message-text p{
+    font-family: "Average Sans";
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 31px;
+    color: #686868;
+}
+
+.history-message-text {
+    margin: 85px 0 85px  62px;
+}
+
+.history-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.history-play-button {
+    display: flex;
+    justify-content: center;
+    margin-right: 121px;
+    align-items:center;
+}
+ 
+.history-play-button a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #353637;
+}
+
+.history-explore-more {
+    width: 155px;
+    height: 40px;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 10px 25px 10px 26px ;
+    background-color: #597193;
+    box-shadow: 0px 4px 12px 0px #15151526;
+}
+
+
+
+/* Our Happy Customers */
+.customer-section {
+    width: 1110px;
+    height: 524px;
+    margin: 119px auto;
+}
+
+.customer-text-container h1 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #353637;
+}
+
+.customer-text-container p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #959595;
+}
+
+.customer-card-container {
+    width: 1110px;
+    height: 415px;
+    margin-top: 21px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 350px);
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.customer-card {
+    width: 350px;
+    height: 389px;
+    background-color: #f6fcfa;
+    border-radius: 6px;
+    position: absolute;
+}
+
+.customer-card-content {
+    width: 267px;
+    height: 289px;
+    margin: 50px 37px 50px 37px;
+}
+
+.customer-card-content img {
+    border-radius: 50px;
+}
+
+.customer-card-content h1 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #101828;
+    margin-top: 24px;
+}
+
+.customer-card-content .first {
+    font-size: 12px;
+    font-weight: 400;
+    color: #606772;
+    margin-bottom: 27px;
+}
+
+.customer-card-content .second {
+    font-size: 14px;
+    font-weight: 300;
+    color: #6d7589;
+    line-height: 26px;
+}
+
+#first-card {
+    left: 0;
+    bottom: 0;
+}
+
+#second-card {
+    position: relative;
+    left: 380px;
+    top: 0;
+    background-color: rgba(113, 136, 170, 0.55);
+    box-shadow: 0 10px 19px rgba(66, 66, 66, 0.2);
+}
+
+#second-card p {
+    color: #ffffff;
+}
+
+#second-card h1 {
+    color: #ffffff;
+}
+
+#third-card {
+    right: 0;
+    bottom: 0;
+}
+
+.customer-card-big-arrow {
+    display: grid;
+    grid-template-columns: repeat(2, 72px);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.customer-card-small-arrow {
+    display: grid;
+    grid-template-columns: repeat(2, 27px);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.slide-show {
+    width: 88px;
+    height: 10px;
+    margin: 70px auto;
+}
+
+/* Hotel Blog*/
+
+.news {
+    width: 1110px;
+    height: 660px;
+    margin: 124px auto;
+}
+
+.news-header-box-des {
+    font-family: "Average Sans";
+    font-size: 16px;
+    font-weight: 400;
+    color: #7587A0;
+    padding: 6px 0 16px 4px;
+}
+
+.news-header-box-title {
+    font-family: "Open Sans";
+    font-size: 45px;
+    font-weight: 400;
+    color: #353637;
+    padding-bottom: 44px;
+}
+
+.news-card-container {
+    width: 1110px;
+    height: 523px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 350px);
+    justify-content: space-between;
+}
+
+.news-card img {
+    width: 350px;
+    height: 316px;
+    /* object-fit: cover; */
+    border-radius: 6px 6px 0 0;
+    vertical-align: top;
+}
+
+.news-card-detail{
+    width: 350px;
+    height: 207px;
+    border: 1px solid #596b86;
+}
+
+.news-card-content {
+    width: 273px;
+    height: 160px;
+    margin: 19px 51px 28px 26px;
+}
+
+.news-card-info {
+    width: 255px;
+    height: 21px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-card-info span {
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    color: #797979;
+    margin-left: 6px;
+}
+
+.news-card-text h3 {
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 400;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.news-card-text p {
+    font-family: "Average Sans";
+    font-size: 15px;
+    font-weight: 400;
+    color: #9b9b9b;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    display: flex;
+    gap: 9px;
+    align-items: baseline;
+}
+
+.read-more p{
+   font-family: "Open Sans";
+   font-size: 16px;
+   font-weight: 400;
+   color: #596b86;
+}
+
+
+/* Stay in Touch*/
+
+.subscribe-container{
+    width: 1110px;
+    height: 383px;
+    margin: 130px auto;
+    background-color: #B1BED0;
+    border-radius: 10px;
+    position: relative;
+}
+
+.content-container {
+    padding: 73px 288px 73px 289px;
+}
+
+.content-container p {
+    font-family: "Average Sans";
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.content-container h1 {
+    font-family: "Open Sans";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: center;
+    color: #334052;
+    margin-bottom: 44px;
+}
+
+.content-container input {
+    width: 354px;
+    height: 45px;
+    border-radius: 6px;
+    border: none;
+    padding: 13px 170px 13px 19px;
+    box-shadow: 0px 2px 12px 0px rgba(52, 52, 52, 0.15);
+}
+
+.content-container button {
+    width: 107px;
+    height: 45px;
+    border-radius: 6px;
+    background-color: #889cb9;
+    color: #ffffff;
+    border: none;
+    box-shadow: -3px 2px 12px 0px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    right: 400px;
+}
+
+.subscribe-container-big-arrow {
+    display: grid;
+    grid-template-columns: repeat(2, 49px);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    /* z-index: -1; */
+}
+
+.subscribe-container-small-arrow {
+    display: grid;
+    grid-template-columns: repeat(2, 39px);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/*Footer*/
+
+.footer-container {
+    width: 1198px;
+    height: 278px;
+    border: solid 1px #7587a0;
+    margin: 86px auto;
+}
+
+.footer-container-content {
+    width: 1110px;
+    height: 189px;
+    margin: 44px 44px 45px 44px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 299px);
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.hotel-logo {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 21px;
+}
+
+.hotel-logo h1 {
+    font-family: "Open Sans";
+    font-size: 26px;
+    font-weight: 600;
+    margin-left: 10px;
+    color: #597193;
+}
+
+.hotel-detail p {
+    font-family: "Average Sans";
+    font-size: 14px;
+    font-weight: 400;
+    color: #a9a9a9;
+}
+
+.contact-us h1{
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    color: #131313;
+    margin-bottom: 20px;
+}
+
+.contact-us svg {
+    margin-right: 6px;
+}
+
+.contact-us span {
+    font-family: "Average Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.02em;   
+    color: #a9a9a9;
+}
+
+.first-line {
+    margin-bottom: 13px;
+}
+
+.follow-us h1 {
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    color: #131313;
+    margin-bottom: 16px;
+}
+
+.social-logo {
+    display: flex;
+    gap: 14.91px;
+    margin-bottom: 4px;
+}
+
+.follow-us p {
+    font-family: "Average Sans";
+    font-size: 14px;
+    font-weight: 400;
+    color: #a9a9a9;
+}
+
+.reference {
+    width: 1440px;
+    height: 60px;
+    background-color: #b1bed0;
+    display: flex;
+    justify-content: space-between;
+    margin: 77px auto 0px;
+    padding: 23px 165px;
+}
+
+.reference h1 {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.42);
+}
+
+.reference p {
+    font-size: 14px;
+    font-weight: 400;
+    color:  rgba(0, 0, 0, 0.42);
+    word-spacing: 4px;
+}
